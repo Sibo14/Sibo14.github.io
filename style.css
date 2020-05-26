@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*Navigation bar*/
+.nav-bar
+{
+    position: sticky;
+    z-index: 2;
+    
+}
+.navbar
+{
+  height: 40px;
+}
+
+.navbar-toggler{
+    outline: none !important; 
+    
+}
+
+.nav-link:hover
+{
+  background: #D1CFCF  ;
+  border-radius: 10px;
+  transition: 1s;
+ 
+}
+/*Styling for my header*/
+
+#header{
+    height: 100vh;
+    background: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.user-image{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.pic{
+    padding-left: 40px;
+}
+
+.user-image img{
+
+    border-radius: 15%;
+    height: 220px;
+    width: 250px;
+    border: solid;
+
+}
+
+.user-image h1{
+    color: #fff;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.user-image p{
+    color: #fff;
+    text-align: center;
+}
+
+/*About me section*/
+
+.about
+{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.about p:hover
+{
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    transition: 1s;
+    padding-left: 10px;
+}
+
+.myimage
+{
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: black 10px 10px;
+}
+
+/*Work experience section*/
+#work-experience
+{
+    background: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#col-work
+{
+    color: #fff;
+}
+#col-work h3{
+    margin-bottom: 30px;
+}
+/*Skills section*/
+#skills-summary
+{
+    background: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.skills{
+color: #fff;
+}
+
+#ProgressBar {
+    
+  height: 25px;
+  padding: 4px;
+   font-size: small;
+   font-weight: bold;
+   text-align: center;
+   color: black;
+   
+  }
+  
+  #Progress {
+   
+    background-color: #1DCBF5;
+    height: 100%;
+    border-radius: 7px;
+    animation-name: progressBar;  
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes progressBar {
+    0% {
+      width: 0%;
+    }
+    
+    100% {
+      width: 85%;
+    }
+  }
+
+#ProgressDroid {
+   
+    background-color: #1DCBF5;
+    height: 100%;
+    border-radius: 7px;
+    animation-name: ProgressDroid;  
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes ProgressDroid {
+    0% {
+      width: 0%;
+    }
+    
+    100% {
+      width: 75%;
+    }
+  }
+
+  #ProgressSql {
+   
+    background-color: #1DCBF5;
+    height: 100%;
+    border-radius: 7px;
+    animation-name: ProgressSql;  
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes ProgressSql {
+    0% {
+      width: 0%;
+    }
+    
+    100% {
+      width: 70%;
+    }
+  }
+
+  #ProgressJava {
+   
+    background-color: #1DCBF5;
+    height: 100%;
+    border-radius: 7px;
+    animation-name: ProgressJava;  
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes ProgressJava {
+    0% {
+      width: 0%;
+    }  
+    100% {
+      width: 80%;
+    }
+  }
+
+  #ProgressHtml {
+   
+    background-color: #1DCBF5;
+    height: 100%;
+    border-radius: 7px;
+    animation-name: ProgressHtml;  
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes ProgressHtml {
+    0% {
+      width: 0%;
+    }
+    
+    100% {
+      width: 85%;
+    }
+  }
+
+  .basic-summary
+  {
+    padding-top: 20px;
+  }
+
+  #other
+  {
+    padding-left: 10px;
+  }
+
+  .skills-head
+  {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size:large;
+  }
+  .ide-tbl
+  {
+      padding-left: 20px;
+  }
+  /*Education section*/
+   
+  #education
+  {
+    padding-bottom: 20px;
+  }
+
+  #education h1
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #edu-list
+  {
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+  .edu-head{
+    font-weight: bold;
+  }
+
+  .edu-tbl
+  {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 0%;
+  }
+
+  .edu-tbl:hover
+  {
+    background: #000;
+    color: #fff;
+    border-radius: 5%;
+    transition: 1s;
+
+  }
+
+/*Soft skills*/
+
+.my-Soft-Skills
+{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my-Soft-Skills h1
+{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.carousel-item 
+{
+  height: 500px;
+  width: 550px;
+}
+
+/*Portfolio*/
+#portfolio
+{
+  background: url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.joke
+{
+  height: 400px;
+  width: 500px;
+  margin-left: 30%;
+  padding-top: 20px;
+}
+
+/*Contact*/
+.email
+{
+  padding-left: 10px;
+}
+#Contact
+{
+  padding-top: 20px;
+}
