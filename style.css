@@ -94,7 +94,13 @@ body{
     border-radius: 20px;
     box-shadow: black 10px 10px;
 }
+.animate__animated.animate__backInLeft {
+  --animate-duration: 2s;
+}
 
+.animate__animated.animate__backInRight {
+  --animate-duration: 2s;
+}
 /*Work experience section*/
 #work-experience
 {
