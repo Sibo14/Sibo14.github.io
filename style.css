@@ -465,12 +465,33 @@ p {
   #soft-skills {
     height: 57vh;
 }
+
+.user-image img {
+  
+  height: 170px;
+  width: 185px;
+  
+}
+
+.animate__animated.animate__backInLeft {
+
+  font-size: 20px;
+}
+
+.animate__animated.animate__backInRight {
+  font-size: 18px;
+}
 }
 
 @media screen and (max-width: 430px){
 
   #soft-skills {
     height: 54vh;
+}
+
+.user-image {
+  top: 60%;
+ 
 }
 
 .carousel-inner {
