@@ -359,6 +359,7 @@ color: #fff;
 
 
 @media screen and (max-width: 992px){
+
   .navbar-light .navbar-nav .nav-link {
     color:#fff !important;
 }
@@ -402,7 +403,7 @@ p {
 @media screen and (max-width: 880px){
 
   #header {
-    height: 85vh;
+    height: 85vh !important;
 }
 
 .skills {
