@@ -373,6 +373,7 @@ color: #fff;
 
 #header {
   height: 93vh;
+  background: #4F4F4F ;
  
 }
 
@@ -392,6 +393,23 @@ p {
 .edu-tbl {
  
   font-size: 20px;
+}
+
+
+#work-experience
+{
+    background: #4F4F4F ;
+    
+}
+#skills-summary
+{
+  background: #4F4F4F;
+    
+    
+}
+#portfolio
+{
+  background: #4F4F4F ;
 }
 
 }
