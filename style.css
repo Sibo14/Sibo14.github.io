@@ -423,8 +423,20 @@ p {
    margin-bottom: 25px;
  }
 
+ #soft-skills{
+   height: 80vh;
+ }
+
 }
 
+
+@media screen and (max-width: 780px){
+
+  #soft-skills .container{
+    max-width: 720px;
+  }
+  
+}
 
 
 @media screen and (max-width: 680px){
