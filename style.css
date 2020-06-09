@@ -28,6 +28,8 @@ body{
   transition: 1s;
  
 }
+
+
 /*Styling for my header*/
 
 #header{
@@ -353,4 +355,85 @@ color: #fff;
 #Contact
 {
   padding-top: 20px;
+}
+
+
+@media screen and (max-width: 992px){
+  .navbar-light .navbar-nav .nav-link {
+    color:#fff !important;
+}
+
+#about{
+
+  max-width: fit-content;
+}
+
+.col-md-6 {
+  
+  max-width: 45%;
+ 
+}
+
+#header {
+  height: 93vh;
+ 
+}
+
+p {
+ 
+  font-size: 20px;
+}
+
+#education .container{
+  max-width: fit-content;
+}
+
+#skills-summary .container{
+  max-width: fit-content;
+}
+
+.edu-tbl {
+ 
+  font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 880px){
+
+  #header {
+    height: 85vh;
+}
+
+.skills {
+  font-size: 20px;
+}
+
+.animate__backInLeft {
+  
+  font-size: 45px;
+}
+.animate__animated.animate__backInRight {
+  
+  font-size: 35;
+}
+p {
+ 
+  font-size: 26px;
+}
+
+}
+
+@media screen and (max-width: 540px){
+  #header {
+    height: 70vh;
+}
+.edu-tbl {
+ 
+  font-size: 24px;
+}
+
+.skills {
+  font-size: 26px;
+}
 }
