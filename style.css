@@ -435,6 +435,11 @@ p {
   #soft-skills .container{
     max-width: 720px;
   }
+
+  .carousel-inner {
+    
+    height: 46vh;
+}
   
 }
 
@@ -445,4 +450,41 @@ p {
  
     font-size: 16px;
   }
+
+  #soft-skills{
+    height: 60vh;
+  }
+
+  .carousel-inner {
+    height: 42vh;
+}
+}
+
+@media screen and (max-width: 500px){
+
+  #soft-skills {
+    height: 57vh;
+}
+}
+
+@media screen and (max-width: 430px){
+
+  #soft-skills {
+    height: 54vh;
+}
+
+.carousel-inner {
+  height: 35vh;
+}
+}
+
+@media screen and (max-width: 337px){
+
+  #soft-skills {
+    height: 46vh;
+}
+
+.carousel-inner {
+  height: 35vh;
+}
 }
