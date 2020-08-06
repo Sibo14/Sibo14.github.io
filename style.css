@@ -7,8 +7,9 @@ body{
 /*Navigation bar*/
 .nav-bar
 {
-    position: sticky;
-    z-index: 2;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
     
 }
 .navbar
