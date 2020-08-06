@@ -367,6 +367,11 @@ color: #fff;
 
   .navbar-light .navbar-nav .nav-link {
     color:#fff !important;
+    
+}
+
+.navbar-nav {
+  float: right;
 }
 
 #about{
