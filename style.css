@@ -366,9 +366,13 @@ color: #fff;
 @media screen and (max-width: 992px){
 
   .navbar-light .navbar-nav .nav-link {
-    color:#fff !important;
+    color:white !important;
+    background-color: #646464;
+  
     
 }
+
+
 
 .navbar-nav {
   float: right;
