@@ -384,6 +384,22 @@ color: #fff;
   padding-top: 20px;
 }
 
+@media screen and (max-width: 1190px){
+  #portfolio .kaliso-img{
+   
+    margin-left: 10%;
+  
+   
+  }
+  
+  
+  
+  .click{
+   
+    margin-left: 45%;
+    
+  }
+}
 
 @media screen and (max-width: 992px){
 
@@ -454,6 +470,21 @@ p {
   font-size: 15px;
 }
 
+#portfolio .kaliso-img{
+   
+  margin-left: 0%;
+
+ 
+}
+
+
+
+.click{
+ 
+  margin-left: 45%;
+  
+}
+
 }
 
 @media screen and (max-width: 880px){
@@ -486,6 +517,22 @@ p {
  #soft-skills{
    height: 80vh;
  }
+
+ #portfolio .kaliso-img{
+   
+  
+  width: 100%;;
+
+ 
+}
+
+
+
+.click{
+ 
+  margin-left: 45%;
+  
+}
 
 }
 
