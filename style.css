@@ -347,6 +347,24 @@ color: #fff;
   color: #fff;
 }
 
+#portfolio .kaliso-img{
+  width: 750px;
+  height:450px;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+.click{
+  color: #fff;
+  margin-left: 50%;
+  margin-top: 20px;
+}
+
+.click:hover{
+  color: lightskyblue;
+  text-decoration-line: underline;
+}
+
 
 
 /*Contact*/
@@ -426,6 +444,7 @@ p {
 {
   background: #1C1C1C   ;
 }
+
 
 .navbar-nav {
   
