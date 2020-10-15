@@ -520,12 +520,11 @@ p {
 
  #portfolio .kaliso-img{
    
-  
+  height: 400px;
   width: 100%;;
 
  
 }
-
 
 
 .click{
@@ -565,6 +564,14 @@ p {
   .carousel-inner {
     height: 42vh;
 }
+
+#portfolio .kaliso-img{
+   
+  height: 350px;
+  width: 100%;;
+
+ 
+}
 }
 
 @media screen and (max-width: 500px){
@@ -603,6 +610,13 @@ p {
 
 .carousel-inner {
   height: 35vh;
+}
+#portfolio .kaliso-img{
+   
+  height: 250px;
+  width: 100%;
+
+ 
 }
 }
 
