@@ -1,338 +1,319 @@
-<html>
-<head>
-<title>Sibonelo Mbatha CV</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sibonelo CV</title>
+<!--Css-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+      
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#home" class="nav__logo">Sibonelo</a>
+                </div>
 
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                       
+                        <li class="nav__item"><a href="#about" class="nav__link ">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Work experience</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#foot"class="nav__link" >Contact</a></li>
+                    </ul>
+                </div>
 
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, height=device-height" />
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home" >
+                <div class="home__data">
+                    <h1 class="home__title">Sibonelo<br><span class="home__title-color">Mbatha</span><br> Software Developer</h1>
 
+                  
+                </div>
 
-</head>
-<body>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/sibonelo-mbatha-680596151/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:sibzmbatha870@gmail.com" target="_blank"  class="home__social-icon"><i class='bx bx-mail-send'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
 
-    <!--My information-->
+                <div class="home__img">    
+                    <img src="assets/img/siboCrop.jpg" alt="">
+                </div>
+            </section>
 
-    <section id="User info">
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About Me</h2>
 
- <!--Navigation Bar-->
-
-<div class="nav-bar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-            <button class="navbar-toggler ml-auto hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#header">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#About-me">About me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#work-experience">Work Experience</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#skills-summary">Skills Summary</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                  </li>
-                                  
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact Details</a>
-                  </li>
-                
-              </ul>
-            </div>
-          </nav>
-        </div>
-    </section>
-
-<!--Header section-->
-
-<section id="header">
-    <div class="container">
-    <div class="user-image">
-
-    <div class="pic"> 
-      <img src="/images/sibo3.jpg">
-         </div>       
-      <h1 class="animate__animated animate__backInLeft">Sibonelo Mbatha</h1>    
-      <p class="animate__animated animate__backInRight">Software Developer</p>
-     </div>
-     </div>
-        
-    </section>
-
-<!--About me -->
- <section id="About-me">
-<div class="about container" id="about">
-    <div class="row">
-        <div class="col-md-6 text center">
-            <img src="/images/IMG_3449.JPG" class="myimage">
-        </div>  
-        <div class="col-md-6">
-            <h3>Why Pick Me?</h3>
-            <p>I am a young and motivated developer looking for oppurtunities to learn and get involved in the industry
-                , I am passionate about my work and look forward to opportunities to improve on my skills.
-                I am well versed in a few languages and am mainly interested in web development, mobile development(android)
-                ,pc apps and can comfortably work my way around databases.
-            </p>
-    </div>
-</div>  
-   </section>  
-
-<!--Work Experience-->
-<section id="work-experience" >
-    <div class="container">
-    <div class="row">
-        <div class="col-md-4" id="col-work" >
-            <h3>My Work Experience</h3>
-            <ul class="list">
-                <li>
-                    <h4> Xact ERP Solutions</h4>
-                    <p>I attended a development programme hosted by Xact ERP Solutions in which we were 
-                       given various tasks to do within the company such as creating and running SQl Queries
-                       to navigate and create logs in their database, 
-                       Coding work related functions for the system in C# along with various debugging tests. <br>
-                     <b>Year</b> -2019<br>
-                    <b>Location</b> -Durban
-                </p>
-
-                </li>
-            </ul>
-        </div>
-    </div>
-    </div>
-</section>
-<!--Education-->
-<section id="education" >
-    <div class="container">
-   
-    <h1>Education</h1>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="edu-tbl">
-                <i class="fa fa-book" id="edu-list"></i><span class="edu-head">Institution</span>
-                <ul>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/siboCrop.jpg" alt="">
+                    </div>
                     
-                    <li>Varsity College Westville</li><br>                         
-                    <li>Varsity College Westville</li><br>
-                    <li>Damelin</li>
-                    <li>St Benedict High School</li>
+                    <div>
+                        <h2 class="about__subtitle" >Sibonelo Mbatha</h2>
+                        <p class="about__text"> 
+                            I am a young and motivated developer looking for oppurtunities to learn and get involved in the industry
+                            , I am passionate about my work and look forward to opportunities to improve on my skills.
+                            I am well versed in a few languages and am mainly interested in web development, mobile development(android)
+                            ,pc apps and can comfortably work my way around databases.</p> 
+
+                            <a href="files/Sibonelo Mbatha cv.pdf" target="_blank">
+                                <button class="btn-cv" >Download My CV</button>
+                            </a>          
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills Summary</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Highlight Skills</h2>
+                        <p class="skills__text">Percenteges are according to my confidence in each language</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML & CSS</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code skills__icon'></i>
+                                <span class="skills__name">C#</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-android skills__icon' ></i>
+                                <span class="skills__name">JAVA</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                               <i class='bx bxs-server skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                    
+                    <div class="ide">
+                        <h2 class="skills__subtitle">Highlight Tools</h2>
+                        <p class="skills__text" style="margin-bottom: 50px;">IDE & Tools Experience</p>
+                    <div>  
+                                    
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-github skills__icon '></i>
+                                <span class="skills__name">Github</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">100%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-trello skills__icon ' ></i>
+                                <span class="skills__name">Trello</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">100%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-firebase skills__icon' ></i>
+                                <span class="skills__name">Firebase</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-adobe skills__icon'></i>
+                                    <span class="skills__name">Adobe XD</span>
+                                </div>
+                                <div class="skills__bar skills__ux">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">80%</span>
+                                </div>
+                            </div>
+                </div>
+                </div>
+            </section>
+
+            <!--===== Portfolio =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="work__container work-grid">
+                    <div class="work__img">
+                        <a href="https://kalisomadlala.com/" target="_blank"> 
+                            <img src="assets/img/port1.PNG" alt=""></a>
+                            
+                    </div>
+                    <div class="work__img">
+                        <a href="https://plestro.netlify.app/index.html" target="_blank"> 
+                            <img src="assets/img/plestro.PNG" alt=""></a>
+                    </div>
+                   
+                </div>
+            </section>
+
+    
+            <!--Experience-->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1 class="section-title">Work Experience</h1>
+                <h6 class="skills__subtitle" style="text-align: center; font-size: 15px;">Past and current jobs</h6>
+            </div>
+            <div class="timeline">
+                <ul>
+                    <li class="date" data-date="2019">
+                        <h1>Xact ERP</h1>
+                        <h4>Date: 2019 <br> Location: Durban</h6>
+                        <p>
+                     I attended a development programme hosted by Xact ERP Solutions in which we were given
+                      various tasks to do within the company such as creating and running SQl Queries to
+                       navigate and create logs in their database, Coding work related functions for the 
+                       system in C# along with various debugging tests</p>
+                    </li>
                 </ul>
             </div>
         </div>
+    </section>
+
+
+     <!--Education-->
+     <section class="education" id="education">
+        <div class="container">
+            <div class="section-heading">
+                <h1 class="section-title">Education</h1>
+                <h6 class="skills__subtitle" style="text-align: center; font-size: 15px;">All my qualifications</h6>
+            </div>
+
+            <div class="row edu-grid" style="align-content: center; ">
+                <div class="col-md-4  ">
+                    <div class="edu-tbl">
+                        <i class="fa fa-book" id="edu-list"></i><span class="edu-head">Institution</span>
+                        <ul>
+                            
+                            <li>Varsity College Westville</li><br>                         
+                            <li>Varsity College Westville</li><br>
+                            <li>Damelin</li>
+                            <li>St Benedict High School</li>
+                        </ul>
+                    </div>
+                </div>
+                        <div class="col-md-4 ">
+                        <div class="edu-tbl">
+                         <i class="fa fa-graduation-cap" id="edu-list"></i><span class="edu-head">Qaulification</span>
+                                <ul> 
+                                        <li>Bachelor of Computer and Information Sciences in Application Development
+                                        </li>
+                                        <br>
+                                        <li>Higher Certificate in I.T and Support Services</li>
+                                        <br>
+                                        <li>A+ in IT principles</li> 
+                                        <br>
+                                        <li>Matric</li>
+                                </ul>
+                    </div>
+                </div>
+        
                 <div class="col-md-4">
-                <div class="edu-tbl">
-                 <i class="fa fa-graduation-cap" id="edu-list"></i><span class="edu-head">Qaulification</span>
+                    <div class="edu-tbl">
+                        <i class="fa fa-calendar" id="edu-list" ></i><span class="edu-head">Year</span>
                         <ul> 
-                                <li>Bachelor of Computer and Information Sciences in Application Development
-                                </li>
-                                <li>Higher Certificate in I.T and Support Services</li>
-                                <li>A+ in IT principles</li> 
-                                <li>Matric</li>
+                                <li>2018 - Current</li><br>
+                                <li>2017</li><br>
+                                <li>2016</li> 
+                                <br>
+                                <li>2015</li>
                         </ul>
             </div>
         </div>
+            </div> 
 
-        <div class="col-md-4">
-            <div class="edu-tbl">
-                <i class="fa fa-calendar" id="edu-list" ></i><span class="edu-head">Year</span>
-                <ul> 
-                        <li>2018 - Current</li><br>
-                        <li>2017</li><br>
-                        <li>2016</li> 
-                        <li>2015</li>
-                </ul>
-    </div>
-</div>
-    </div>       
-    </div>
-</section>
-<!--Skills Summary-->
-
-<section id="skills-summary">
-    <div class="container">
-     <div class="skills">  
-    <h1>Skills Summary</h1>
-    <p>Percenteges are according to my confidence in each language</p>
-
-    <p>C#</p>
-    <div id="ProgressBar">
-        <div id="Progress" style="width:85%;">85%</div>
-      </div>
-
-      <p>Android</p>
-      <div id="ProgressBar">
-        <div id="ProgressDroid" style="width:75%;">75%</div>
-      </div>
-
-      <p>SQl</p>
-      <div id="ProgressBar">
-        <div id="ProgressSql" style="width:70%;">70%</div>
-      </div>
-      
-      <p>Java</p>
-      <div id="ProgressBar">
-        <div id="ProgressJava" style="width:80%;">80%</div>
-      </div>
-  
-      <p>Html & Css</p>
-      <div id="ProgressBar">
-        <div id="ProgressHtml" style="width:85%;">85%</div>
-      </div>
-
-      <div class="basic-summary">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="skills-tbl">
-                    <i class="fa fa-laptop"></i><span class="skills-head" id="other">Other languages and frameworks
-                         I'm comfortable with:</span>
-                    <ul>
-                        <li>MVC</li>                         
-                        <li>.NET Framework, .NET Core</li>
-                        <li>Angular</li>
-                        <li>JavaScript</li>
-                        <li>Azure and Firebase Databases</li>
-                        <li>Windows forms, Wpf</li>
-                        <li>Bootstrap, Git, Github</li>
-                    
-                    </ul>
-                </div>
-            </div>
-
-            <div class="ide">
-                <div class="ide-tbl">
-                    <i class="fa fa-laptop"></i><span class="skills-head" id="other">IDE Experience: </span>
-                    <ul>
-                        <li>Visual Studio</li>                         
-                        <li>Netbeans</li>
-                        <li>Microsoft SQl Management studio</li>
-                        <li>Visual Studio Code</li>
-                        <li>Notepad</li>
-                        <li>Android Studio</li>
-                        <li>Expression Web</li>
-                    
-                    </ul>
-            </div>
-    </div>
-      </div>
-     
-</div>
-</div> 
-    </div>
-</section>
-
-<!--Soft Skills-->
-<section id="soft-skills">
-<div class="container">
-<div class="my-Soft-Skills">
-
-    <h1>Soft Skills</h1>
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/leadership.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Leadership</h5>
-              <p>Very Capable of taking control of a situation, 
-                  giving out instructions and leading by example </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/communication.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Communication</h5>
-              <p>Get along with others well, and am able to fit into various groups 
-                  depending on the situation</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/late.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Time Management</h5>
-              <p>I take pride in doing my best to manage myself and my time in order to get tasks done in time</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/problem.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Problem Solving</h5>
-              <p>I believe there is a lot to learn during the process of problem solving and is a valuable skill</p>
-            </div>
-          </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+    </section>
+        </main>
 
-</div>
-</div>
-</section>
-<!--Portfolio-->
-<section id="portfolio" >
-    <div class="container">
-    <h1 style="margin-bottom: 10px;">Portfolio</h1>
-    <h3>A live website i worked on for a client:</h3>
-
-   <a href="https://kalisomadlala.com/" target="_blank"><img class="kaliso-img"
-     src="/images/kaliso web.PNG" ></a><br>
-     
-    <a class="click" style="font-size: 18px; font-weight: bold; text-align: center;" target="_blank"
-     href="https://kalisomadlala.com/"> Click Here</a>
-     
-    <h3 style="margin-top: 25px;">*To be updated*</h3>
-    </div>
-</section>
-
-<!--Contact details-->
- 
-<section id="Contact">
-    <div class="container text-center">
-        <h1>Contact Me</h1>
-
-                <i class="fa fa-envelope" ></i><span class="email">Email:</span><br>
-                <a type="email" href="mailto:sibzmbatha870@gmail.com">sibzmbatha870@gmail.com</a><br>
+        <!--===== FOOTER =====-->
+        <section id="foot">
+        <footer class="footer">
+            <p class="footer__title">Contact Me</p>
+            <div class="scroll">
+                <i style="padding-right: 10px;" class="fa fa-envelope" ></i><span class="email">Email:</span><br>
+                <a type="email" href="mailto:sibzmbatha870@gmail.com" class="email-link">sibzmbatha870@gmail.com</a><br>
                 <p>&#169; 2020 Created by Sibonelo Mbatha</p>
            
         </div>
+    
+        </footer>
+    </section>
 
-    </div>
-</section>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-</body>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
