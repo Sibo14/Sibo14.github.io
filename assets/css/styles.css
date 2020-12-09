@@ -484,13 +484,13 @@ button::before{
 /* ===== Might change will see=====*/
   .home__img {
     
-    display: none;
+    position: relative;
    
 }
 
 .home__img img {
 
- display: none;
+  margin-right: 20px !important;
 }
 }
 @media screen and (max-width: 840px){
