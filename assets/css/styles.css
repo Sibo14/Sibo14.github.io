@@ -484,13 +484,13 @@ button::before{
 
   .home__img {
     
-    position: relative;
+    display: none;
    
 }
 
 .home__img img {
 
-  margin-right: 20px !important;
+ display: none;
 }
 }
 @media screen and (max-width: 840px){
