@@ -426,6 +426,7 @@ button::before {
   padding: 10px !important;
   margin-top: 20px !important;
   border-radius: 0% !important;
+  height: 15rem;
 }
 #education .edu-grid {
   display: grid;
